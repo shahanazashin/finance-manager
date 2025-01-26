@@ -7,26 +7,26 @@
 
 
 ### Team Members
-- Member 1: [Soudha Sareena] - [LBS College of EN]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Soudha Sareena] - [LBS College of Engineering]
+- Member 2: [Kadeejath Sahanaz Ashin P A] - [LBS College of Engineering]
+- Member 3: [Parvathy Menon ] - [LBS College of Engineering]
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+[https://shahanazashin.github.io/finance-manager/]
 
 ### Project Description
-[2-3 lines about what your project does]
+[A Simple website that allows users to track their income and expenses efficiently. it have daily income and expense entry,transaction history and it is a user friendly interface ]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+[Many people dont know how to budget or save money]
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+[build a simple website where users can add their income and expenses, see how much they spend,and get tips onsaving money ]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [html,javascript,css]
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
@@ -48,7 +48,7 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1]()
 Add caption explaining what this shows
 
 ![Screenshot2](Add screenshot 2 here with proper name)
