@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income & Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Income & Expense Tracker</h1>
+        </header>
+
+        <!-- Transaction Input Form -->
+        <div class="form">
+            <label for="date">Select Date:</label>
+            <input type="date" id="date">
+            
+            <label for="type">Transaction Type:</label>
+            <select id="type">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+
+            <label for="category">Category:</label>
+            <input type="text" id="category" placeholder="Category/Description">
+
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" placeholder="Amount">
+
+            <button onclick="addTransaction()">Add Transaction</button>
+        </div>
+
+        <!-- Monthly Summary -->
+        <div class="summary">
+            <h2>Monthly Summary</h2>
+            <label for="year">Year:</label>
+            <select id="year" onchange="filterTransactions()">
+                <!-- Year options (could be dynamic) -->
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+            </select>
+
+            <label for="month">Month:</label>
+            <select id="month" onchange="filterTransactions()">
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+
+            <p>Total Income: $<span id="totalIncome">0</span></p>
+            <p>Total Expenses: $<span id="totalExpense">0</span></p>
+            <p>Balance: $<span id="balance">0</span></p>
+        </div>
+
+        <!-- Transaction History -->
+        <div class="history">
+            <h2>Transaction History</h2>
+            <table id="transactionTable">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Type</th>
+                        <th>Category</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dynamic rows will be added here -->
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Tips Section -->
+        <div class="tips">
+            <h3>Saving Tips</h3>
+            <p id="tipText">Track your income and expenses to save more!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
