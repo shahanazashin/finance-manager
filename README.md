@@ -48,13 +48,14 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![
+!["C:\Users\fliya\OneDrive\Pictures\Screenshots\Screenshot 2025-01-25 105951.png"
 Add caption explaining what this shows
 
-![Screenshot2](Add screenshot 2 here with proper name)
+!["C:\Users\fliya\OneDrive\Pictures\Screenshots\Screenshot 2025-01-25 105851.png"](Add screenshot 2 here with proper name)
+
 Add caption explaining what this shows
 
-![Screenshot3](Add screenshot 3 here with proper name)
+!["C:\Users\fliya\OneDrive\Pictures\Screenshots\Screenshot 2025-01-25 105911.png"](Add screenshot 3 here with proper name)
 Add caption explaining what this shows
 
 # Diagrams
@@ -93,9 +94,9 @@ Explain what the video demonstrates
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Soudha Sareena]: [script modifying ,created specific theme ]
+- [Kadeejath Sahanaz Ashin P A]: [Script modifying , ]
+- [Parvathy Menon]: [Script modifying ]
 
 ---
 Made with ❤️ at TinkerHub
